@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The INTERNET permission is required for development. Specifically,
+         the Flutter tool needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Android 11+ package visibility: let the instrumented app reach
+         Android Test Orchestrator and test services. -->
+    <queries>
+        <package android:name="androidx.test.orchestrator" />
+        <package android:name="androidx.test.services" />
+    </queries>
+</manifest>
