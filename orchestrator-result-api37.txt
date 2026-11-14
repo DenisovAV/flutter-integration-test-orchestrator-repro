@@ -43,7 +43,7 @@ INSTRUMENTATION_STATUS: test=passing test 2
 INSTRUMENTATION_STATUS_CODE: 0
 INSTRUMENTATION_RESULT: stream=
 
-Time: 3.424
+Time: 8.808
 
 FAILURES!!!
 Tests found: 1, Tests run: 3,  Failures: 0
